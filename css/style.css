@@ -1,0 +1,161 @@
+@import "./reset.css";
+
+body {
+    color: black;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 30px;
+    margin: 0 auto;
+
+}
+
+.title-1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.header {
+    background-color: rgb(192, 187, 187);
+    padding-top: 40px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 80px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.header-content {
+    max-width: 500px;
+    margin-top: 70px;
+}
+
+.header-content p {
+    font-size: 14px;
+    line-height: 2;
+}
+
+.services {
+    padding: 90px;
+}
+
+.services-row {
+    display: flex;
+    column-gap: 35px;
+}
+
+.service-card-img {
+    width: 15%;
+    margin-bottom: 30px;
+}
+
+.service-card-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.service-card p {
+    line-height: 2;
+    font-size: 14px;
+}
+
+.portfolio {
+    background-color: antiquewhite;
+    padding: 90px 0;
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.project {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.project-img {
+    margin-bottom: 40px;
+    width: 75%;
+}
+
+.project-title {
+    font-size: 20px;
+    text-decoration: underline ;
+}
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts-title {
+    margin-bottom: 30px;
+}
+
+.contacts-content {
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.contacts-button {
+    margin-bottom: 80px;  
+}
+
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 18px;
+    color: azure;
+}
+
+.btn:hover, .btn:focus {
+    background-color: cadetblue;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    margin-bottom: 40px;
+}
+
+.contacts-footer {
+    color: rgb(115, 105, 86);
+}
